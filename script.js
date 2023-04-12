@@ -23,8 +23,7 @@ let HighScore = window.localStorage.getItem("HighScore")
   ? window.localStorage.getItem("HighScore")
   : 0;
 
-document.querySelector(".highscore").textContent =
-  "High Score: " + String(HighScore);
+document.querySelector(".span").textContent = String(HighScore);
 
 const array = [
   "#D14D72",
@@ -282,3 +281,4 @@ document.querySelector(".restart").addEventListener("click", function () {
   let m = minutes < 10 ? "0" + minutes : minutes;
   displayTimer.textContent = m + ":" + s;
 });
+
