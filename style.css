@@ -204,7 +204,7 @@ a {
   transform: translate(-50%, -50%);
   height: 362px;
   width: 374px;
-  background: #191919;
+  background: #000000;
   z-index: 1;
   border-radius: 9px;
 }
